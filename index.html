@@ -1,86 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nizer - Homepage</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-<body>
-	<nav>
-	<input type="checkbox" id="check">
-	<label for="check" class="checkbtn">
-	<i class="fas fa-bars"></i>
-	</label>
-	<label class="logo">Nizer</label>
-	<ul>
-		<li><a class="active" href="#">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contact</a></li>
-	</ul>
-</nav>
-<section>
-	<br>
-	Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas nisi labore deserunt excepturi consectetur, quae, fuga doloremque expedita dicta ab. Nisi natus iste cumque maxime, dolorum enim eum aut?
-	screen !
-	<br><br><br>
-	<br><br><br>
-	<!-- <br><br><br>
-	<br><br><br> -->
-</section>
-<footer>
-	<div class="container">
-		<div class="sec aboutus">
-			<h2>About Us</h2>
-			<p>
-			ullam vel. Quis numquam rem distinctio, dignissimos mollitia possimus debitis voluptatem quam est? Nesciunt vero laudantium fugiat explicabo, tempora ad sed quae autem laborum quisquam consequatur voluptas?
-			</p>
-			<ul class="sci">
-				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter" ></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			</ul>
-		</div>
-		<div class="sec quickLinks">
-			<h2>Quick Links</h2>
-			<ul class="">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-		<div class="sec contact">
-			<h2>Contact Us</h2>
-			<ul class="info">
-				<li>
-					<span><i class="fas fa-map-marker-alt"></i></span>
-					<span>023 karwi, sadar <br>
-					chitrakoot, 210205 <br> India	
-					</span>
-				</li>
-				
-				<li>
-					<span><i class="fas fa-phone-volume"></i></span>
-					<p>
-						<a href="tel:918543832619">+91-8543832619</a><br>
-						<a href="tel:918429926156">+91-8429926156</a>
-					</p>
-				</li>
-				<li>
-					<span><i class="fas fa-envelope"></i></span>
-					<p><a href="mailto:kakhilesh79@gmail.com">kakhilesh79@gmail.com</a></p>
-				</li>
-
-			</ul>
-		</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nizer - Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Nizer</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <section>
+      <p class="banner">Every business needs a trusted advisor.</p>
+      <div class="main-content">
+        Our promise to you is simple. We will help you capture relevant business
+        opportunities and will ensure that you do so profitably, sustainably and
+        within a reasonable timeframe. At Nizer, your interest is held above
+        everything else. We stand committed by your side, as your trusted
+        advisor. <br><br> In the last decade, we have advised clients
+        across public and private sectors in developing and implementing
+        strategies that have mattered and have created impact. <br><br> Our team’s
+        experience stands unmatched when it comes to assisting our clients in
+        starting new ventures, helping them enter a new markets or product
+        segments, facilitating in sourcing raw material & trained manpower and
+        hand-holding them in business partnerships.
+      </div><br>
+      <h2 style="text-align: center;" class="">Our Services</h2> <hr style="width: 10%;margin-left: 45%;border: 1px solid #0082e6;background: #0082e6;" />
+      <br>
+      <div class="image-box">
+	<div class="img-box">
+		<img src="data:image/jpeg;base64,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" alt="">
+		<p>Drinking Water Packaging</p>
 	</div>
-</footer>
-<div class="copyrightText">
-	<p>Copyright &copy; 2021 Nizer. All Rights Reserved | cin - 3455765</p>
-</div>
-</body>
+	<div class="img-box">
+		<img src="https://www.abcmach.com/uploads/allimg/mini-edible-oil-refining-plant.jpg" alt="">
+		<p>Mustard Oil Manufacturer</p>
+	</div>
+      </div>
+      <br /><br /><br />
+      <br /><br /><br />
+      <!-- <br><br><br>
+	<br><br><br> -->
+    </section>
+    <footer>
+      <div class="container">
+        <div class="sec aboutus">
+          <h2>About Us</h2>
+          <p>
+		Our promise to you is simple. We will help you capture relevant business
+		opportunities and will ensure that you do so profitably, sustainably and
+		within a reasonable timeframe. At Nizer, your interest is held above
+		everything else.
+          </p>
+
+          <ul class="sci">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec quickLinks">
+          <h2>Quick Links</h2>
+          <ul class="">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="sec contact">
+          <h2>Contact Us</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fas fa-map-marker-alt"></i></span>
+              <span
+                >023 karwi, sadar <br />
+                chitrakoot, 210205 <br />
+                India
+              </span>
+            </li>
+
+            <li>
+              <span><i class="fas fa-phone-volume"></i></span>
+              <p>
+                <a href="tel:918299213421">+91-8299213421</a><br />
+                <a href="tel:918953135687">+91-8953135687</a>
+              </p>
+            </li>
+            <li>
+              <span><i class="fas fa-envelope"></i></span>
+              <p>
+                <a href="mailto:veru.95@gmail.com">veru.95@gmail.com</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="copyrightText">
+      <p>Copyright &copy; 2021 Nizer. All Rights Reserved | cin - 3455765</p>
+    </div>
+  </body>
 </html>
